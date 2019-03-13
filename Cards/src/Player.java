@@ -45,4 +45,16 @@ public class Player {
         return busted;
     }
 
+    public String getPlayerName()
+    {
+        return playerName;
+    }
+
+    public void reset()
+    {
+        score = 0;
+        busted = false;
+        hand.clear();
+    }
+
 }
